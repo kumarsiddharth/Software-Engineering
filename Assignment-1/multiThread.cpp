@@ -35,7 +35,7 @@ int main ()
    int i;
    int arr[] = {5,6,7,8,9,12,34,56,78};
   // cin >> arr[20]; 
-//foo();
+foo();
    for( i=0; i < NUM_THREADS; i++ ){
       cout << "main() : creating thread, " << i << endl;
       rc = pthread_create(&threads[i], NULL, 
