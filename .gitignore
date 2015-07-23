@@ -24,7 +24,7 @@ study_material/
 
 *.class
 *_test
-
+*.pdf
 
 # Normal rules
 #

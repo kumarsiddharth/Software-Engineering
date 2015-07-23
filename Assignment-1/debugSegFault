@@ -1,0 +1,89 @@
+GNU gdb (Ubuntu 7.7.1-0ubuntu5~14.04.2) 7.7.1
+Copyright (C) 2014 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from segFault...done.
+(gdb) run
+Starting program: /home/siddharth/Documents/ALL-MY-FILES/7thsem/SoftwareEngineering/lab/Assignment-1/segFault 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000400a56 in foo () at multiThread.cpp:21
+21	  *x =100;
+(gdb) p x
+$1 = (int *) 0x0
+(gdb) es[Kdit 21
+[?1049h[?1h=[1;42r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[42;1H"~/Documents/ALL-MY-FILES/7thsem/SoftwareEngineering/lab/Assignment-1/multiThread.cpp" [Incomplete last line] 50 lines, 857 characters[1;1H#include <iostream>
+#include <cstdlib>
+#include <pthread.h>
+#include <array>
+
+using namespace std;
+
+#define NUM_THREADS     10
+
+void *PrintHello(void *threadid)
+{
+   long tid;
+   tid = (long)threadid;
+   cout << "Hello World! Thread ID, " << tid << endl;
+   pthread_exit(NULL);
+}
+
+void foo()
+{
+   int  *x = 0;
+  *x =100;
+}
+
+void inf()
+{
+   while(1)
+   {[28;7Hcout<< "inf" << endl;
+   }
+}
+int main ()
+{
+   pthread_t threads[NUM_THREADS];
+   int rc;
+   int i;
+   int arr[] = {5,6,7,8,9,12,34,56,78};
+  // cin >> arr[20];
+//foo();
+   for( i=0; i < NUM_THREADS; i++ ){[40;7Hcout << "main() : creating thread, " << i << endl;[41;7Hrc = pthread_create(&threads[i], NULL,[21;3H[?12l[?25h[20;3H int  **[?25lx = 0;[20;15H[K[20;9H[?12l[?25h[21;9H
+
+[24;9H
+[26;9H
+   [28;9H
+   
+[31;9H
+[33;9H[34;9H[35;9H[36;9H[37;9H[38;8H[39;9H[40;9H[41;9H[?25l[1;41r[41;1H
+[1;42r[41;27HPrintHello, (void *)i);[42;1H[K[41;9H[?12l[?25h[?25l[1;41r[41;1H
+[1;42r[41;7Hif (rc){[?12l[?25h[?25l[1;41r[41;1H
+[1;42r[41;10Hcout << "Error:unable to create thread," << rc << endl;[41;9H[?12l[?25h[?25l[1;41r[41;1H
+[1;42r[41;10Hexit(-1);[41;9H[?12l[?25h[?25l[1;41r[41;1H
+[1;42r[41;7H}[?12l[?25h[?25l[1;41r[41;1H
+[1;42r[41;4H}[?12l[?25h[?25l[1;41r[41;1H
+[1;42r[41;4Hpthread_exit(NULL);[41;9H[?12l[?25h[?25l[1;41r[41;1H
+[1;42r[41;1H[?12l[?25h[?25l[1;41r[41;1H
+[1;42r[41;1H}[?12l[?25h[?25l
+:.![?12l[?25hq[?25l[42;4H[K[42;4H[?12l[?25h[?25l[42;3H[K[42;3H[?12l[?25h[?25l[42;2H[K[42;2H[?12l[?25hwq[?25l"multiThread.cpp" 50 lines, 857 characters written
+[?1l>[?12l[?25h[?1049l(gdb) run
+The program being debugged has been started already.
+Start it from the beginning? (y or n) (gdb) cot[Knt
+Continuing.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+(gdb) quit
