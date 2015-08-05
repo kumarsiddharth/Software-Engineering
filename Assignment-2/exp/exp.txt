@@ -1,0 +1,4 @@
+exp.txt
+total 4
+-rw-rw-r-- 1 siddharth siddharth 8 Jul 30 15:19 exp.txt
+exp.txt

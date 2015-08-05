@@ -1,0 +1,179 @@
+Ign http://dl.google.com stable InRelease
+Ign http://extras.ubuntu.com trusty InRelease
+Hit http://dl.google.com stable Release.gpg
+Ign http://in.archive.ubuntu.com trusty InRelease
+Ign http://ppa.launchpad.net trusty InRelease
+Get:1 http://download.virtualbox.org trusty InRelease [5,637 B]
+Ign http://download.virtualbox.org trusty InRelease
+Hit http://dl.google.com stable Release
+Hit http://extras.ubuntu.com trusty Release.gpg
+Ign http://security.ubuntu.com trusty-security InRelease
+Hit http://ppa.launchpad.net trusty Release.gpg
+Ign http://in.archive.ubuntu.com trusty-updates InRelease
+Hit http://dl.google.com stable/main amd64 Packages
+Hit http://extras.ubuntu.com trusty Release
+Hit http://ppa.launchpad.net trusty Release
+Get:2 http://security.ubuntu.com trusty-security Release.gpg [933 B]
+Ign http://in.archive.ubuntu.com trusty-backports InRelease
+Hit http://dl.google.com stable/main i386 Packages
+Ign http://archive.canonical.com trusty InRelease
+Ign http://packages.mate-desktop.org trusty InRelease
+Hit http://extras.ubuntu.com trusty/main Sources
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty Release.gpg
+Ign http://mirror.us.leaseweb.net raring-backports InRelease
+Hit http://archive.canonical.com trusty Release.gpg
+Hit http://extras.ubuntu.com trusty/main amd64 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Get:3 http://in.archive.ubuntu.com trusty-updates Release.gpg [933 B]
+Ign http://packages.mate-desktop.org trusty Release.gpg
+Hit http://archive.canonical.com trusty Release
+Hit http://extras.ubuntu.com trusty/main i386 Packages
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Ign http://mirror.us.leaseweb.net raring-backports Release.gpg
+Ign http://packages.mate-desktop.org trusty Release
+Hit http://archive.canonical.com trusty/partner Sources
+Hit http://in.archive.ubuntu.com trusty-backports Release.gpg
+Ign http://repo.mongodb.org trusty/mongodb-org/3.0 InRelease
+Hit http://archive.canonical.com trusty/partner amd64 Packages
+Hit http://in.archive.ubuntu.com trusty Release
+Ign http://mirror.us.leaseweb.net raring-backports Release
+Hit http://archive.canonical.com trusty/partner i386 Packages
+Hit http://repo.mongodb.org trusty/mongodb-org/3.0 Release.gpg
+Ign http://dl.google.com stable/main Translation-en_IN
+Get:4 http://security.ubuntu.com trusty-security Release [63.5 kB]
+Ign http://dl.google.com stable/main Translation-en
+Hit http://repo.mongodb.org trusty/mongodb-org/3.0 Release
+Get:5 http://security.ubuntu.com trusty-security/main Sources [89.2 kB]
+Ign http://archive.canonical.com trusty/partner Translation-en
+Ign http://download.virtualbox.org trusty/contrib amd64 Packages/DiffIndex
+Hit http://repo.mongodb.org trusty/mongodb-org/3.0/multiverse amd64 Packages
+Get:6 http://in.archive.ubuntu.com trusty-updates Release [63.5 kB]
+Hit http://repo.mongodb.org trusty/mongodb-org/3.0/multiverse i386 Packages
+Ign http://extras.ubuntu.com trusty/main Translation-en_IN
+Get:7 http://security.ubuntu.com trusty-security/restricted Sources [2,061 B]
+Hit http://in.archive.ubuntu.com trusty-backports Release
+Ign http://extras.ubuntu.com trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty/main Sources
+Get:8 http://security.ubuntu.com trusty-security/universe Sources [28.5 kB]
+Hit http://in.archive.ubuntu.com trusty/restricted Sources
+Hit http://in.archive.ubuntu.com trusty/universe Sources
+Get:9 http://security.ubuntu.com trusty-security/multiverse Sources [2,334 B]
+Hit http://in.archive.ubuntu.com trusty/multiverse Sources
+Hit http://in.archive.ubuntu.com trusty/main amd64 Packages
+Get:10 http://security.ubuntu.com trusty-security/main amd64 Packages [322 kB]
+Hit http://in.archive.ubuntu.com trusty/restricted amd64 Packages
+Hit http://in.archive.ubuntu.com trusty/universe amd64 Packages
+Ign http://download.virtualbox.org trusty/non-free amd64 Packages/DiffIndex
+Hit http://in.archive.ubuntu.com trusty/multiverse amd64 Packages
+Ign http://repo.mongodb.org trusty/mongodb-org/3.0/multiverse Translation-en_IN
+Hit http://in.archive.ubuntu.com trusty/main i386 Packages
+Ign http://repo.mongodb.org trusty/mongodb-org/3.0/multiverse Translation-en
+Hit http://in.archive.ubuntu.com trusty/restricted i386 Packages
+Hit http://in.archive.ubuntu.com trusty/universe i386 Packages
+Hit http://in.archive.ubuntu.com trusty/multiverse i386 Packages
+Get:11 http://security.ubuntu.com trusty-security/restricted amd64 Packages [8,875 B]
+Hit http://in.archive.ubuntu.com trusty/main Translation-en
+Get:12 http://security.ubuntu.com trusty-security/universe amd64 Packages [111 kB]
+Hit http://in.archive.ubuntu.com trusty/multiverse Translation-en
+Err http://packages.mate-desktop.org trusty/main amd64 Packages
+  404  Not Found
+Err http://packages.mate-desktop.org trusty/main i386 Packages
+  404  Not Found
+Ign http://download.virtualbox.org trusty/contrib i386 Packages/DiffIndex
+Hit http://in.archive.ubuntu.com trusty/restricted Translation-en
+Ign http://packages.mate-desktop.org trusty/main Translation-en_IN
+Hit http://in.archive.ubuntu.com trusty/universe Translation-en
+Ign http://packages.mate-desktop.org trusty/main Translation-en
+Get:13 http://security.ubuntu.com trusty-security/multiverse amd64 Packages [3,683 B]
+Get:14 http://in.archive.ubuntu.com trusty-updates/main Sources [227 kB]
+Get:15 http://security.ubuntu.com trusty-security/main i386 Packages [307 kB]
+Get:16 http://in.archive.ubuntu.com trusty-updates/restricted Sources [3,433 B]
+Ign http://ftp.iitm.ac.in trusty/ InRelease
+Get:17 http://in.archive.ubuntu.com trusty-updates/universe Sources [130 kB]
+Ign http://download.virtualbox.org trusty/non-free i386 Packages/DiffIndex
+Get:18 http://security.ubuntu.com trusty-security/restricted i386 Packages [8,846 B]
+Get:19 http://security.ubuntu.com trusty-security/universe i386 Packages [112 kB]
+Get:20 http://in.archive.ubuntu.com trusty-updates/multiverse Sources [5,138 B]
+Get:21 http://in.archive.ubuntu.com trusty-updates/main amd64 Packages [598 kB]
+Get:22 http://security.ubuntu.com trusty-security/multiverse i386 Packages [3,838 B]
+Get:23 http://security.ubuntu.com trusty-security/main Translation-en [175 kB]
+Get:24 http://in.archive.ubuntu.com trusty-updates/restricted amd64 Packages [11.8 kB]
+Hit http://security.ubuntu.com trusty-security/multiverse Translation-en
+Get:25 http://in.archive.ubuntu.com trusty-updates/universe amd64 Packages [301 kB]
+Hit http://security.ubuntu.com trusty-security/restricted Translation-en
+Get:26 http://security.ubuntu.com trusty-security/universe Translation-en [64.9 kB]
+Get:27 http://in.archive.ubuntu.com trusty-updates/multiverse amd64 Packages [12.0 kB]
+Get:28 http://in.archive.ubuntu.com trusty-updates/main i386 Packages [579 kB]
+Ign ftp://ftp.videolan.org ./ InRelease
+Hit http://download.virtualbox.org trusty/contrib amd64 Packages
+Hit http://download.virtualbox.org trusty/non-free amd64 Packages
+Hit http://download.virtualbox.org trusty/contrib i386 Packages
+Hit http://download.virtualbox.org trusty/non-free i386 Packages
+Get:29 http://in.archive.ubuntu.com trusty-updates/restricted i386 Packages [11.8 kB]
+Get:30 http://ftp.iitm.ac.in trusty/ Release.gpg [490 B]
+Get:31 http://in.archive.ubuntu.com trusty-updates/universe i386 Packages [302 kB]
+Get:32 http://in.archive.ubuntu.com trusty-updates/multiverse i386 Packages [12.1 kB]
+Get:33 http://in.archive.ubuntu.com trusty-updates/main Translation-en [288 kB]
+Err http://mirror.us.leaseweb.net raring-backports/main amd64 Packages
+  404  Not Found
+Err http://mirror.us.leaseweb.net raring-backports/restricted amd64 Packages
+  404  Not Found
+Err http://mirror.us.leaseweb.net raring-backports/universe amd64 Packages
+  404  Not Found
+Err http://mirror.us.leaseweb.net raring-backports/main i386 Packages
+  404  Not Found
+Hit http://in.archive.ubuntu.com trusty-updates/multiverse Translation-en
+Hit http://in.archive.ubuntu.com trusty-updates/restricted Translation-en
+Err http://mirror.us.leaseweb.net raring-backports/restricted i386 Packages
+  404  Not Found
+Get:34 http://in.archive.ubuntu.com trusty-updates/universe Translation-en [159 kB]
+Err http://mirror.us.leaseweb.net raring-backports/universe i386 Packages
+  404  Not Found
+Ign http://mirror.us.leaseweb.net raring-backports/main Translation-en_IN
+Hit http://in.archive.ubuntu.com trusty-backports/main Sources
+Hit http://in.archive.ubuntu.com trusty-backports/restricted Sources
+Ign http://mirror.us.leaseweb.net raring-backports/main Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/universe Sources
+Hit http://in.archive.ubuntu.com trusty-backports/multiverse Sources
+Ign http://mirror.us.leaseweb.net raring-backports/restricted Translation-en_IN
+Hit http://in.archive.ubuntu.com trusty-backports/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/restricted amd64 Packages
+Ign http://mirror.us.leaseweb.net raring-backports/restricted Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/universe amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/multiverse amd64 Packages
+Ign http://mirror.us.leaseweb.net raring-backports/universe Translation-en_IN
+Hit http://in.archive.ubuntu.com trusty-backports/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/restricted i386 Packages
+Ign http://mirror.us.leaseweb.net raring-backports/universe Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/universe i386 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/multiverse i386 Packages
+Get:35 http://ftp.iitm.ac.in trusty/ Release [3,703 B]
+Ign http://ftp.iitm.ac.in trusty/ Release
+Hit http://in.archive.ubuntu.com trusty-backports/main Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/multiverse Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/restricted Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/universe Translation-en
+Ign http://in.archive.ubuntu.com trusty/main Translation-en_IN
+Ign http://in.archive.ubuntu.com trusty/multiverse Translation-en_IN
+Ign http://in.archive.ubuntu.com trusty/restricted Translation-en_IN
+Ign http://in.archive.ubuntu.com trusty/universe Translation-en_IN
+Err ftp://ftp.videolan.org ./ Release.gpg
+  Server closed the connection
+Ign http://ftp.iitm.ac.in trusty/ Packages/DiffIndex
+Ign http://download.virtualbox.org trusty/contrib Translation-en_IN
+Ign http://download.virtualbox.org trusty/contrib Translation-en
+Ign http://download.virtualbox.org trusty/non-free Translation-en_IN
+Ign http://download.virtualbox.org trusty/non-free Translation-en
+Ign ftp://ftp.videolan.org ./ Release
+Hit http://ftp.iitm.ac.in trusty/ Packages
+Ign ftp://ftp.videolan.org ./ Packages/DiffIndex
+Ign http://ftp.iitm.ac.in trusty/ Translation-en_IN
+Ign http://ftp.iitm.ac.in trusty/ Translation-en
+Err ftp://ftp.videolan.org ./ Translation-en_IN
+  Server closed the connection
+Err ftp://ftp.videolan.org ./ Translation-en
+  Server closed the connection
+Err ftp://ftp.videolan.org ./ Packages
+  Server closed the connection
+Fetched 4,018 kB in 4min 26s (15.1 kB/s)
